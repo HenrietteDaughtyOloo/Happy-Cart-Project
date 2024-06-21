@@ -25,13 +25,14 @@ jobs:
         python -m pip install --upgrade setuptools
         pip install -r requirements.txt
         
-    - name: Get environment varables
-      run: |
-        source .env      
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0
-
+  
+         
+    - name: Get environment varables
+      run: |
+        source .env      
 
     - name: Run migrations
       run: |
