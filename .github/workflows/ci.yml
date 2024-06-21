@@ -33,7 +33,8 @@ jobs:
     - name: Get environment varables
       run: |
         bash -c "source .env"     
-
+      working-directory: ${{ github.workspace }}
+      
     - name: Run migrations
       run: |
         python manage.py migrate
