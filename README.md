@@ -24,7 +24,7 @@
 ## Installation
 1. **Clone the repository:**
    ```bash 
-   git clone https://github.com/HenrietteDaughtyOloo/Happy-Cart.git
+   git clone https://github.com/HenrietteDaughtyOloo/Happy-Cart-Project.git
    cd Happy-Cart
 
 
