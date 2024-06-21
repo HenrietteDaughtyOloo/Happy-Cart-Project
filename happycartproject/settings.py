@@ -11,8 +11,8 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-import os
-AFRICAS_TALKING_API_KEY = os.getenv('AFRICAS_TALKING_API_KEY')
+from decouple import config
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -155,5 +155,11 @@ OAUTH2_PROVIDER = {
     'CLIENT_SECRET_GENERATOR_CLASS': 'oauth2_provider.generators.ClientSecretGenerator',
 }
 
-CLIENT_ID = os.getenv('CLIENT_ID')
-CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+import os
+# AFRICAS_TALKING_API_KEY = os.getenv('AFRICAS_TALKING_API_KEY')
+
+
+AFRICAS_TALKING_API_KEY = config('AFRICAS_TALKING_API_KEY')
+
+CLIENT_ID = config('CLIENT_ID')
+CLIENT_SECRET = config('CLIENT_SECRET')

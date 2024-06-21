@@ -7,6 +7,7 @@ import africastalking
 from django.conf import settings
 
 # Create your views here.
+
 africastalking.initialize(username='sandbox', api_key=settings.AFRICAS_TALKING_API_KEY)
 sms = africastalking.SMS
 
