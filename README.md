@@ -28,8 +28,9 @@
    cd Happy-Cart
 
 
-## Create and activate a virtual environment:
+## Create a virtual environment:
  `python -m venv myenv`
+ ## Then activate it
  `source myenv/bin/activate`
 
  
