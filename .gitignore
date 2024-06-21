@@ -1,4 +1,4 @@
-# myenv/
+myenv/
 .venv/
 .env
 *.pyc
