@@ -3,7 +3,7 @@
 
 ## Table of Contents
 - [Features](#features)
-- [Api-documentation] (#api-documentation)
+- [Documentation] (#documentation)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,7 +16,7 @@
 - Authentication and authorization using token-based authentication.
 - Continuous integration setup using GitHub Actions.
 
-## Postman Api Documentation
+## Documentation
 Link- `https://documenter.getpostman.com/view/28088528/2sA3XY7e76`
 
 
