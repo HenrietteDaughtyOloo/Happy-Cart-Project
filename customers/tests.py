@@ -12,7 +12,9 @@ class CustomerTestCase(TestCase):
         client_id = settings.CLIENT_ID
         client_secret = settings.CLIENT_SECRET
 
+
         self.user = User.objects.create_user(username='Adalab', password='Lab@5708')
+
 
         response = self.client.post('/o/token/', {
             'grant_type': 'password',
@@ -24,6 +26,9 @@ class CustomerTestCase(TestCase):
 
         if response.status_code != status.HTTP_200_OK:
             print("Token request failed: ", response.content)
+            print(f"Client ID: {client_id}")
+            print(f"Client Secret: {client_secret}")
+
             raise Exception("Failed to obtain access token")
 
         response_data = response.json()
