@@ -18,6 +18,8 @@
 
 ## Apis
 #### Documentation
+You can visit the official Postman documentation here [Api-postman-documentation](https://documenter.getpostman.com/view/28088528/2sA3XY7e76).
+
 Link- `https://documenter.getpostman.com/view/28088528/2sA3XY7e76`
 
 
@@ -36,34 +38,43 @@ Link- `https://documenter.getpostman.com/view/28088528/2sA3XY7e76`
 
 
 ## Create a virtual environment:
- `python -m venv myenv`
- ## Then activate it
- `source myenv/bin/activate`
-
- 
+2. **Create venv:**
+   ```bash
+   python -m venv myenv
+3. **Then activate it:**
+   ```bash
+   source myenv/bin/activate 
 ## On Windows, use:
-`myenv\Scripts\activate`
+3. **For windows:**
+   ```bash
+   myenv\Scripts\activate
 
 
 ## Install dependencies:
- `pip install -r requirements.txt `
+4. **Then requirements:**
+   ```bash
+   pip install -r requirements.txt
 
 ## Apply migrations:
- `python manage.py migrate `
+5. **Migrations:**
+   ```bash
+   python manage.py migrate
 
 ## Run the development server:
-
- `python manage.py runserver `
+6. **Runserver:**
+   ```bash
+   python manage.py runserver
 
 ## Usage
-Access API Endpoints:
-
+7. **Access API Endpoints:**
+#### Remember to create appropriate authorization Headers to use the API
 - List all customers: GET /api/customers/
 - Retrieve a customer: GET /api/customers/<id>/
 - List all orders: GET /api/orders/
 - Retrieve an order: GET /api/orders/<id>/
 
-### Authentication:
+
+## Authentication:
 Use token-based authentication to access the endpoints. Include the token in the header:
  `Authorization: Bearer your_access_token `
 
