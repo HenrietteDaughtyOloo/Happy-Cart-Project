@@ -3,16 +3,22 @@
 
 ## Table of Contents
 - [Features](#features)
+- [Api-documentation] (#api-documentation)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributions](#contributions)
+
 
 ## Features
 - Manage customers and orders through a RESTful API.
 - Send SMS notifications to customers upon order creation.
 - Authentication and authorization using token-based authentication.
 - Continuous integration setup using GitHub Actions.
+
+## Postman Api Documentation
+Link- `https://documenter.getpostman.com/view/28088528/2sA3XY7e76`
+
 
 ## Requirements
 - Python 3.9 or higher
