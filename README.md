@@ -20,7 +20,6 @@
 #### Documentation
 You can visit the official Postman documentation here [Api-postman-documentation](https://documenter.getpostman.com/view/28088528/2sA3XY7e76).
 
-Link- `https://documenter.getpostman.com/view/28088528/2sA3XY7e76`
 
 
 ## Requirements
