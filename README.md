@@ -75,27 +75,33 @@ Link- `https://documenter.getpostman.com/view/28088528/2sA3XY7e76`
 
 
 ## Authentication:
-Use token-based authentication to access the endpoints. Include the token in the header:
- `Authorization: Bearer your_access_token `
+8. **token-based:**
+- Use token-based authentication to access the endpoints. Include the token in the header:
+   ```bash
+   Authorization: Bearer your_access_token
 
-## Contributions
+## Contributions:
+9. **To be a contributor:**
 Fork the repository:
 - Click the "Fork" button at the top right of this repository.
 
 - Clone your fork:
+   ```bash
+   git clone https://github.com/HenrietteDaughtyOloo/Happy-Cart.git
 
-  `git clone https://github.com/HenrietteDaughtyOloo/Happy-Cart.git`
 - navigate to repository
-    `cd Happy-Cart`
+   ```bash
+   cd Happy-Cart
 - Create a new branch:
-
- `git checkout -b feature/your-feature-name `
+   ```bash
+   git checkout -b feature/your-feature-name
 
 - Make your changes and commit:
-
- `git commit -am 'Add some feature' `
+   ```bash
+   git commit -am 'Add a feature'
 - Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
 
- `git push origin feature/your-feature-name `
 - Create a Pull Request:
 Go to the repository on GitHub and click the "New Pull Request" button.
